@@ -22,9 +22,9 @@
 
 3장. [DI의 개념](https://github.com/gabean13/Software-Engineering-Book/tree/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%206%20%EC%9E%85%EB%AC%B8/Ch3)
 
-4장. DI 컨테이너
+4장. [DI 컨테이너](https://github.com/gabean13/Software-Engineering-Book/tree/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%206%20%EC%9E%85%EB%AC%B8/Ch4)
 
-5장. 스테레오타입 애너테이션
+5장. [스테레오타입 애너테이션](https://github.com/gabean13/Software-Engineering-Book/tree/main/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%206%20%EC%9E%85%EB%AC%B8/Ch5)
 
 6장. 프로파일로 설정 전환하기
 
