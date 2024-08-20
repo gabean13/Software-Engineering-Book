@@ -9,9 +9,10 @@
 |@Controller|Controller의 구상 클래스에 붙인다 부가 기능으로 스프링 MVC기능을 이용할 수 있다|
 |@Component|역할을 나타내지 않은 범용적인 스테레오타입 애너테이션으로 구상 클래스의 역할이 위의 항목에 해당하지 않는 경우 붙인다|
 
-? 그럼 왜 @Servcie에 @Component말고 @Serivce를 붙이나요 
+❓ 그럼 왜 @Servcie에 @Component말고 @Serivce를 붙이나요 
 
-! 어느 쪽을 사용해도 상관 없으나 구상 클래스의 역할을 알 수 있어 소스코드의 가독성이 좋아지기 때문
+❗ 어느 쪽을 사용해도 상관 없으나 구상 클래스의 역할을 알 수 있어 소스코드의 가독성이 좋아지기 때문
+
 **예시**
 ```java
 @Service
@@ -32,7 +33,7 @@ public class JdbcTrainingRepository implements TrainingRepository{
 ## Injection 지시
 애너테이션으로 객체를 생성은 했으나 의존하는 객체에 대한 injection은 아직 이루어지지 않았음
 
--> DI 컨테이너에 injection은 `@Autowired`로 사용
+⮕ DI 컨테이너에 injection은 `@Autowired`로 사용
 
 ![alt text](image-1.png)
 ![alt text](image.png)
@@ -121,9 +122,9 @@ public class TrainingServiceImpl implements TrainingService {
 }
 ```
 
-? 그렇다면 어떤 방법을 써서 injection을 해야할까
+❓ 그렇다면 어떤 방법을 써서 injection을 해야할까
 
-! **생성자 인젝션**을 권장
+❗ **생성자 인젝션**을 권장
 
 - final을 붙힐 수 있음
 - final은 생성자 외의 다른 곳에서는 내용을 변경할 수 없음 즉, 실수로 필드 내용을 변경하지 못하게 할 수 있음
