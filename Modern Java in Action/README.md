@@ -1,8 +1,6 @@
 # Modern Java in Action
 [모던 자바 인 액션](https://product.kyobobook.co.kr/detail/S000001810171)(한빛미디어, 2019) 읽고 정리한 레포지토리입니다.
 
-해당 책은 [스터디](https://github.com/for-growth/java-master?tab=readme-ov-file)로 진행하였습니다.
-
 ## 책 소개
 자바 1.0이 나온 이후 18년을 통틀어 가장 큰 변화가 자바 8 이후 이어지고 있다. 
 
